@@ -5,7 +5,7 @@ This repo is the official implementation of ["SalMIM:Saliency-guided Masked Imag
 
 
 
-<iframe src="network2.pdf" width="100%" height="600px"></iframe>
+<iframe src="network.png" width="100%" height="600px"></iframe>
 
 ## Getting Started
 
