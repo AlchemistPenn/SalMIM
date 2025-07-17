@@ -75,3 +75,6 @@ For example, to fine-tune `Swin Base` pre-trained by `salmim` on one DGX-2 serve
 python -m torch.distributed.launch --nproc_per_node 16 main_finetune.py \ 
 --cfg configs/swin_base__800ep/salmim_finetune__swin_base__img224_window7__800ep.yaml --batch-size 128 --data-path <imagenet-path> --pretrained <pretrained-ckpt> [--output <output-directory> --tag <job-tag>]
 ```
+
+### Tips:
+The pretrained model is coming soon.
